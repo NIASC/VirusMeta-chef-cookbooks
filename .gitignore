@@ -8,7 +8,7 @@
 
 # Bundler
 Gemfile.lock
-bin/*
+
 .bundle/*
 
 # test kitchen
@@ -19,3 +19,19 @@ bin/*
 Berksfile.lock
 .zero-knife.rb
 Policyfile.lock.json
+
+# InteliJ Specific Ignores
+.idea
+*.iml
+
+#Project Specific Ignores
+target
+simple.log
+out
+
+# Eclipse Specific Ignores
+.classpath
+.project
+.settings
+.delivery
+.idea
