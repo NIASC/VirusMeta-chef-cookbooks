@@ -20,4 +20,7 @@ version '0.1.0'
 
 depends 'build-essential'
 depends 'yum-epel'
-#depends 'poise-python'
+depends 'magic_shell'
+depends 'perl'
+depends 'poise-python'
+depends 'cpan'

@@ -6,11 +6,10 @@
 directory node.dir.software
 package "git"
 
-khmer_githuburl = node['VirusSlayer-chef-cookbooks']['khmer_githuburl']
-khmer_dir       = "#{node.dir.software}/khmer"
+khmer_githuburl  = node['VirusSlayer-chef-cookbooks']['khmer_githuburl']
+khmer_dir        = "#{node.dir.software}/khmer"
 screed_githuburl = node['VirusSlayer-chef-cookbooks']['screed_githuburl']
 screed_dir       = "#{node.dir.software}/screed"
-
 
 git "git_clone_khmer" do
   action :checkout
