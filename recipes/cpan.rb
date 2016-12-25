@@ -19,7 +19,8 @@ cpan_module 'Config::General'
 cpan_module 'Tie::IxHash'
 cpan_module 'Parallel::ForkManager'
 cpan_module 'Module::Build'
-#cpan_module 'Bundle::CPAN'
+## cpan_module 'Bio::DB:Sam'
+## cpan_module 'Bundle::CPAN'
 
 cpan_packages = %w(Set-IntSpan
                   Params-Validate

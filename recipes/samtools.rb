@@ -28,7 +28,7 @@ end
 
 # this symlinks every executable in the install subdirectory to /usr/local/bin
 # so that they are in the PATH
-execute "find #{samtools_dir} -maxdepth 2 -executable -type f -exec ln -s {} /usr/local/bin \\;" do
+execute "find #{samtools_dir} -maxdepth 2 -executable -type f -exec ln -s {} /usr/bin \\;" do
   cwd node['Samtools']['install_path']
 end
 
