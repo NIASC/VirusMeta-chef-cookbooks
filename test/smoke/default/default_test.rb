@@ -1,6 +1,6 @@
 # # encoding: utf-8
 
-# Inspec test for recipe VirusSlayer-chef-cookbooks::default
+# Inspec test for recipe VirusMeta-chef-cookbooks::default
 
 # The Inspec reference, with examples and extensive documentation, can be
 # found at http://inspec.io/docs/reference/resources/

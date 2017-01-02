@@ -1,5 +1,5 @@
 #
-# Cookbook:: VirusSlayer-chef-cookbooks
+# Cookbook:: VirusMeta-chef-cookbooks
 # Recipe:: py-packages
 #
 # Copyright (c) 2016 Davit Bzhalava, All Rights Reserved.

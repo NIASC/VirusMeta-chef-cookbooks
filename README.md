@@ -1,11 +1,11 @@
-# VirusSlayer-chef-cookbooks
+# VirusMeta-chef-cookbooks
 
-name             'VirusSlayer-chef-cookbooks'
+name             'VirusMeta-chef-cookbooks'
 maintainer       "Davit Bzhalava"
 maintainer_email "davit.bzhalava@ki.se"
 license          'all_rights'
-description      'Installs/Configures VirusSlayer'
-long_description 'Installs/Configures VirusSlayer'
+description      'Installs/Configures VirusMeta'
+long_description 'Installs/Configures VirusMeta'
 version          '0.1.0'
 
 

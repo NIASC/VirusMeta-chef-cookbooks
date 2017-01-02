@@ -1,12 +1,12 @@
 #
-# Cookbook:: VirusSlayer-chef-cookbooks
+# Cookbook:: VirusMeta-chef-cookbooks
 # Spec:: default
 #
 # Copyright:: 2016, The Authors, All Rights Reserved.
 
 require 'spec_helper'
 
-describe 'VirusSlayer-chef-cookbooks::default' do
+describe 'VirusMeta-chef-cookbooks::default' do
   context 'When all attributes are default, on an unspecified platform' do
     let(:chef_run) do
       runner = ChefSpec::ServerRunner.new

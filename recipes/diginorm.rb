@@ -1,14 +1,14 @@
 #
-# Cookbook:: VirusSlayer-chef-cookbooks
+# Cookbook:: VirusMeta-chef-cookbooks
 # Recipe:: _common
 #
 # Copyright (c) 2016 Davit Bzhalava, All Rights Reserved.
 directory node.dir.software
 package "git"
 
-khmer_githuburl  = node['VirusSlayer-chef-cookbooks']['khmer_githuburl']
+khmer_githuburl  = node['VirusMeta-chef-cookbooks']['khmer_githuburl']
 khmer_dir        = "#{node.dir.software}/khmer"
-screed_githuburl = node['VirusSlayer-chef-cookbooks']['screed_githuburl']
+screed_githuburl = node['VirusMeta-chef-cookbooks']['screed_githuburl']
 screed_dir       = "#{node.dir.software}/screed"
 
 git "git_clone_khmer" do

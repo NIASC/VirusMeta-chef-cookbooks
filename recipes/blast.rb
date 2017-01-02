@@ -1,5 +1,5 @@
 #
-# Cookbook:: VirusSlayer-chef-cookbooks
+# Cookbook:: VirusMeta-chef-cookbooks
 # Recipe:: blast
 #
 # Copyright (c) 2016 Davit Bzhalava, All Rights Reserved.

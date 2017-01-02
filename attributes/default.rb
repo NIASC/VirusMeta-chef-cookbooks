@@ -9,8 +9,8 @@ default.dir.etc      = "/usr/local/etc"
 default.dir.bin      = "/usr/bin"
 
 # diginorm
-default['VirusSlayer-chef-cookbooks']['khmer_githuburl'] = "https://github.com/dib-lab/khmer.git"
-default['VirusSlayer-chef-cookbooks']['screed_githuburl'] = "https://github.com/dib-lab/screed.git"
+default['VirusMeta-chef-cookbooks']['khmer_githuburl'] = "https://github.com/dib-lab/khmer.git"
+default['VirusMeta-chef-cookbooks']['screed_githuburl'] = "https://github.com/dib-lab/screed.git"
 
 # BLAST
 default['blast']['version'] = '2.5.0'
