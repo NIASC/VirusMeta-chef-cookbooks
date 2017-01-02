@@ -10,7 +10,6 @@ cdhit_dir = node['cdhit']['install_path'] + '/' + 'cd-hit-' + node['cdhit']['ver
 cdhit_filename = "cd-hit-#{node['cdhit']['version']}.tgz"
 cdhit_url = "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/cdhit/#{cdhit_filename}"
 
-## remote_file "#{python_download_dir}/numpy-#{numpy_version}.tar.gz" do
 remote_file "#{Chef::Config[:file_cache_path]}/#{cdhit_filename}" do
   source cdhit_url
   action :create_if_missing

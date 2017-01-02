@@ -6,11 +6,11 @@
 
 # refresh package sources
 bash "yum_clean" do
-    code "yum update"
+    code "yum clean all"
 end
 
 bash "yum_update" do
-    code "yum update"
+    code "yum -y update"
 end
 
 rhel_packages = %w(zlib-devel

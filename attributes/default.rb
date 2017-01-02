@@ -33,7 +33,31 @@ default['Samtools']['version'] = '1.3'
 default['Samtools']['install_path'] = '/usr/local/src'
 default['Samtools']['make_options'] = ''
 
-# Cdhit
+# cdhit
 default['cdhit']['version'] = 'v4.6.1-2012-08-27'
 default['cdhit']['install_path'] = '/usr/local/src'
 default['cdhit']['make_options'] = ''
+
+# Soapdenovo
+default['SOAPdenovo2']['version'] = 'r240'
+default['SOAPdenovo2']['install_path'] = '/usr/local/src'
+default['SOAPdenovo2']['make_options'] = 'debug=1'
+
+# Soapdenovotrans
+default['SOAPdenovotrans']['version'] = 'v1.03'
+default['SOAPdenovotrans']['install_path'] = '/usr/local/src'
+
+# megahit
+default['megahit']['megahit_githuburl'] = 'git://github.com/voutcn/megahit.git'
+default['megahit']['install_path'] = '/usr/local/src'
+default['megahit']['make_options'] = '' #use_gpu=1
+
+# megahit
+default['trinity']['trinity_githuburl'] = 'git://github.com/trinityrnaseq/trinityrnaseq.git'
+default['trinity']['install_path'] = '/usr/local/src'
+default['trinity']['make_options'] = 'all'
+
+# omega
+default['omega']['version'] = 'v1.0.2'
+default['omega']['install_path'] = '/usr/local/src'
+default['omega']['make_options'] = ''
