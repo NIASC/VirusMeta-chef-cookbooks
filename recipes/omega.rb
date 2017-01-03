@@ -17,7 +17,7 @@ execute 'un-tar omega tar ball' do
   command "tar -xzf #{Chef::Config[:file_cache_path]}/#{omega_filename} -C #{node['omega']['install_path']}"
   creates "#{omega_dir}"
   action :run
-  not_if { ::File.exist?("#{omega_dir}") }
+  not_if { ::Dir.exist?("#{omega_dir}") }
 end
 
 execute 'make omega in #{omega_dir}' do

@@ -61,3 +61,8 @@ default['trinity']['make_options'] = 'all'
 default['omega']['version'] = 'v1.0.2'
 default['omega']['install_path'] = '/usr/local/src'
 default['omega']['make_options'] = ''
+
+# emboss
+default['emboss']['version'] = '6.6.0'
+default['emboss']['install_path'] = '/usr/local/src'
+default['emboss']['make_options'] = ''
