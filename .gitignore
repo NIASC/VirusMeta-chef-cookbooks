@@ -28,6 +28,7 @@ Policyfile.lock.json
 target
 simple.log
 out
+install.sh 
 
 # Eclipse Specific Ignores
 .classpath
